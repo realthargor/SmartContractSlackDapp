@@ -5,7 +5,9 @@
   "description": "Ethereum based smartcontract Dapp to play a lottery via slack",
   "main": "index.js",
   "scripts": {
-    "start": "node SlackBotListener.js"
+    "start": "node SlackBotListener.js",
+    "test": "standard",
+    "format": "standard --fix"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +17,9 @@
     "nodemailer": "4.0.x",
     "json-rpc2": "1.0.x",
     "dotenv": "4.0.x"
+  },
+  "devDependencies": {
+    "standard": "*"
   },
   "engine": {
     "node": ">6.9.x"

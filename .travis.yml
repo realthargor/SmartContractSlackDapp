@@ -3,4 +3,5 @@ node_js:
   - "7"
 
 before_script:
-  cd nodeserver/app
+  cd nodeserver/app;
+  npm install --only=dev
